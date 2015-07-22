@@ -1,6 +1,7 @@
 /* eslint-disable no-var */
 var path = require('path');
 var webpack = require('webpack');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: [
@@ -26,6 +27,12 @@ module.exports = {
       test: /\.jsx?$/,
       loaders: ['react-hot', 'babel'],
       include: path.join(__dirname, 'scripts')
+    }, {
+      test: /\.css$/,
+      loader: "style-loader!css-loader"
+    },{
+      test: /(\.png|\.woff|\.woff2|\.svg|\.ttf|\.eot)$/,
+      loader: 'url?limit=100000'
     }]
   }
 };
