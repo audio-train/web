@@ -1,5 +1,5 @@
 {
-  "name": "audio-tribe-web",
+  "name": "audio-train-web",
   "version": "0.1.0",
   "description": "A collaborative online audio recording / music sharing experience",
   "dependencies": {
@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/audio-tribe/web.git"
+    "url": "https://github.com/audio-train/web.git"
   },
-  "author": "John Robinson <johnrob1880@alliancecom.net> (http://github.com/audio-tribe)",
+  "author": "John Robinson <johnrob1880@alliancecom.net> (http://github.com/audio-train)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/audio-tribe/issues"
+    "url": "https://github.com/audio-train/issues"
   },
-  "homepage": "https://github.com/audio-tribe/web"
+  "homepage": "https://github.com/audio-train/web"
 }
